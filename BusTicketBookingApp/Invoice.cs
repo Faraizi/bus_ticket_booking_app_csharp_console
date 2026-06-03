@@ -8,8 +8,6 @@ namespace BusTicketBookingApp
 {
     public class Invoice
     {
-        //Invoice:
-
         public int UserID { get; set; }
 
         public int InvoiceID { get; set; }

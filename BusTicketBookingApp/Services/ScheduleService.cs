@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusTicketBookingApp
+namespace BusTicketBookingApp.Interfaces
 {
-    public static class ScheduleService
+    public class ScheduleService : IScheduleService
     {
-        public static List<Schedule> Schedules = new List<Schedule>();
-        public static void CreateSchedule()
+        private readonly IBusService _busService;
+        public ScheduleService(IBusService busService) {
+            _busService = busService;
+        }
+
+        private readonly List<Schedule> Schedules = new();
+
+        public void CreateSchedule()
         {
             var schedule = new Schedule();
             Console.WriteLine("Enter Bus ID: ");
@@ -34,7 +40,7 @@ namespace BusTicketBookingApp
             Console.WriteLine("Enter Ticket Price: ");
             schedule.TicketPrice = Convert.ToDecimal(Console.ReadLine());
 
-            Bus bus = BusService.Buses.FirstOrDefault(b => b.ID == schedule.BusID);
+            Bus bus = _busService.GetBusByID(schedule.BusID);
             if (bus != null)
             {
                 bus.Schedules.Add(schedule);
@@ -46,7 +52,8 @@ namespace BusTicketBookingApp
                 Console.WriteLine("Bus not found. Schedule creation failed.");
             }
         }
-        public static void DisplayAllSchedules()
+
+        public void DisplayAllSchedules()
         {
             if (Schedules.Count != 0 && Schedules != null)
             {
@@ -56,7 +63,6 @@ namespace BusTicketBookingApp
                     Console.WriteLine($"{schedule.BusID} | {schedule.DepartureCity} | {schedule.ArrivalCity} | {schedule.DepartureDate} | {schedule.TicketPrice}");
                 }
             }
-            //if(Schedules.Count == 0 || Schedules == null)
             else
             {
                 Console.WriteLine("No schedules found");
@@ -64,7 +70,7 @@ namespace BusTicketBookingApp
             Console.WriteLine();
         }
 
-        public static void DisplayScheduleDetails()
+        public void DisplayScheduleDetails()
         {
             Console.WriteLine("Enter Schedule ID to view Details.");
             int scheduleId = Convert.ToInt32(Console.ReadLine());
@@ -76,7 +82,7 @@ namespace BusTicketBookingApp
             Schedule? schedule;
             Bus? bus;
             schedule = Schedules.FirstOrDefault(sc => sc.ScheduleID == scheduleId);
-            bus = BusService.Buses.FirstOrDefault(sb => sb.ID == schedule.BusID);
+            bus = _busService.GetBusByID(schedule.BusID);
             Console.WriteLine();
             Console.WriteLine("Schedule Details\n");
             Console.WriteLine($"Schedule ID:{schedule.ScheduleID} | Bus ID:{schedule.BusID} | From: {schedule.DepartureCity} => To {schedule.ArrivalCity}");
@@ -95,7 +101,7 @@ namespace BusTicketBookingApp
 
         }
 
-        public static void BusinessSeating(int totalSeats, Schedule schedule)
+        public void BusinessSeating(int totalSeats, Schedule schedule)
         {
             Console.WriteLine("Choose your preferred seat 'X' means the seat is booked\n");
 
@@ -111,7 +117,7 @@ namespace BusTicketBookingApp
             }
         }
 
-        public static void EconomySeating(int totalSeats, Schedule schedule)
+        public void EconomySeating(int totalSeats, Schedule schedule)
         {
             Console.WriteLine("Choose your preferred seat");
 
@@ -128,7 +134,7 @@ namespace BusTicketBookingApp
             }
         }
 
-        public static bool IsValidSeat(Bus bus, string seat)
+        public bool IsValidSeat(Bus bus, string seat)
         {
             int rows;
 
@@ -155,5 +161,11 @@ namespace BusTicketBookingApp
 
             return false;
         }
+
+        public Schedule? GetScheduleByID(int id)
+        {
+            return Schedules.FirstOrDefault(s => s.ScheduleID == id);
+        }
     }
+
 }

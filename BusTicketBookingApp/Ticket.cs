@@ -10,9 +10,13 @@ namespace BusTicketBookingApp
     public class Ticket
     {
         public int TicketID { get; set; }
+
         public int UserID { get; set; }  
+
         public int CoachNumber { get; set; }
+
         public DateTime JourneyDate { get; set; }
+
         public string Seat { get; set; }
     }
 }

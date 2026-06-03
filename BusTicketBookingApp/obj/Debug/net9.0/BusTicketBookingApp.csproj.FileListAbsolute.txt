@@ -27,3 +27,4 @@ C:\Users\sahad\Downloads\Bus-Ticket-booking\BusTicketBookingApp\obj\Debug\net9.0
 C:\Users\sahad\Downloads\Bus-Ticket-booking\BusTicketBookingApp\obj\Debug\net9.0\BusTicketBookingApp.pdb
 C:\Users\sahad\Downloads\Bus-Ticket-booking\BusTicketBookingApp\obj\Debug\net9.0\BusTicketBookingApp.genruntimeconfig.cache
 C:\Users\sahad\Downloads\Bus-Ticket-booking\BusTicketBookingApp\obj\Debug\net9.0\ref\BusTicketBookingApp.dll
+C:\Users\sahad\Downloads\Bus-Ticket-booking\BusTicketBookingApp\obj\Debug\net9.0\BusTicketBookingApp.sourcelink.json

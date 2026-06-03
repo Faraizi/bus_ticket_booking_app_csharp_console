@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\bustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:bustype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\interfaces\\ibusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:interfaces\\ibusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\interfaces\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:interfaces\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\services\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:services\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|c:\\users\\sahad\\downloads\\bus-ticket-booking\\busticketbookingapp\\busticketbookingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A29A04D-C3D7-459E-A4B3-AF18D3D56AB8}|BusTicketBookingApp.csproj|solutionrelative:busticketbookingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Schedule.cs",
+              "RelativeDocumentMoniker": "Schedule.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Schedule.cs",
+              "RelativeToolTip": "Schedule.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:38:05.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Ticket.cs",
+              "RelativeDocumentMoniker": "Ticket.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Ticket.cs",
+              "RelativeToolTip": "Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:39:15.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:39:27.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:48:26.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IScheduleService.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Interfaces\\IScheduleService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IScheduleService.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Interfaces\\IScheduleService.cs",
+              "RelativeToolTip": "Interfaces\\IScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T03:55:34.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScheduleService.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Services\\ScheduleService.cs",
+              "RelativeDocumentMoniker": "Services\\ScheduleService.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Services\\ScheduleService.cs",
+              "RelativeToolTip": "Services\\ScheduleService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAawC0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T03:59:35.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Invoice.cs",
+              "RelativeDocumentMoniker": "Invoice.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Invoice.cs",
+              "RelativeToolTip": "Invoice.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:38:41.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Interfaces\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Interfaces\\IBookingService.cs",
+              "RelativeToolTip": "Interfaces\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T03:57:15.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T03:59:51.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Bus.cs",
+              "RelativeDocumentMoniker": "Bus.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Bus.cs",
+              "RelativeToolTip": "Bus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:38:23.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BusType.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\BusType.cs",
+              "RelativeDocumentMoniker": "BusType.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\BusType.cs",
+              "RelativeToolTip": "BusType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:38:39.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBusService.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Interfaces\\IBusService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBusService.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Interfaces\\IBusService.cs",
+              "RelativeToolTip": "Interfaces\\IBusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T03:54:35.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Services\\BookingService.cs",
+              "RelativeToolTip": "Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T04:00:36.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T03:54:01.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BusService.cs",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Services\\BusService.cs",
+              "RelativeDocumentMoniker": "Services\\BusService.cs",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\Services\\BusService.cs",
+              "RelativeToolTip": "Services\\BusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T04:00:29.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BusTicketBookingApp",
+              "DocumentMoniker": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\BusTicketBookingApp.csproj",
+              "RelativeDocumentMoniker": "BusTicketBookingApp.csproj",
+              "ToolTip": "C:\\Users\\sahad\\Downloads\\Bus-Ticket-booking\\BusTicketBookingApp\\BusTicketBookingApp.csproj",
+              "RelativeToolTip": "BusTicketBookingApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-03T03:51:45.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

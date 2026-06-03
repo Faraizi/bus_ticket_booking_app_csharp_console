@@ -12,11 +12,17 @@ namespace BusTicketBookingApp
     sealed public class Schedule
     {
         public int BusID { get; set; }
+
         public int ScheduleID { get; set; }
+
         public string DepartureCity { get; set; } = string.Empty;
+
         public string ArrivalCity { get; set; } = string.Empty;
+
         public DateTime DepartureDate { get; set; }
+
         public decimal TicketPrice { get; set; }
+
         public List<string> ReservedSeats { get; set; } = [];
 
     }

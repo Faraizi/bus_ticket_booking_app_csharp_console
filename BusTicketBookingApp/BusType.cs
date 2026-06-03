@@ -3,6 +3,7 @@
     public enum BusType
     {   
         Economy,
+
         Business
     }
 }
