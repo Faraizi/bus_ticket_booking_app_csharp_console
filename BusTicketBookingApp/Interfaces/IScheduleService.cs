@@ -19,5 +19,6 @@ namespace BusTicketBookingApp.Interfaces
 
         bool IsValidSeat(Bus bus, string seat);
         Schedule? GetScheduleByID(int id);
+        void AddReservedSeat(Schedule schedule, string seat);
     }
 }

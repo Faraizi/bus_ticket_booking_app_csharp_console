@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace BusTicketBookingApp.Interfaces
 {
-    public interface IBookingService
+    public interface IPaymentService
     {
-        IReadOnlyList<Invoice> Invoices { get; }
-        void BookTicket();
-        void DisplayInvoices();
+        void ProcessPayment();
     }
 }

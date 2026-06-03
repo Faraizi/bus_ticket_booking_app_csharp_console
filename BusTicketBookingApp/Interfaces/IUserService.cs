@@ -11,5 +11,6 @@ namespace BusTicketBookingApp.Interfaces
         User GetUserByID(int id);
         void CreateUser();
         void DisplayAllUsers();
+        void DisplayUserTickets();
     }
 }

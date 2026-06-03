@@ -8,8 +8,8 @@ namespace BusTicketBookingApp.Interfaces
 {
     public interface IBusService
     {
-        Bus GetBusByID(int id);
         void CreateBus();
         void DisplayAllBus();
+        Bus GetBusByID(int id);
     }
 }

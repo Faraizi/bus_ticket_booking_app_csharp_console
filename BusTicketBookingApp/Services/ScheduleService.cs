@@ -8,12 +8,11 @@ namespace BusTicketBookingApp.Interfaces
 {
     public class ScheduleService : IScheduleService
     {
+        private readonly List<Schedule> Schedules = new();
         private readonly IBusService _busService;
         public ScheduleService(IBusService busService) {
             _busService = busService;
         }
-
-        private readonly List<Schedule> Schedules = new();
 
         public void CreateSchedule()
         {
@@ -60,7 +59,7 @@ namespace BusTicketBookingApp.Interfaces
                 Console.WriteLine("All available bus schedules: ");
                 foreach (var schedule in Schedules)
                 {
-                    Console.WriteLine($"{schedule.BusID} | {schedule.DepartureCity} | {schedule.ArrivalCity} | {schedule.DepartureDate} | {schedule.TicketPrice}");
+                    Console.WriteLine($"{schedule.BusID} - {schedule.DepartureCity} - {schedule.ArrivalCity} - {schedule.DepartureDate} - {schedule.TicketPrice} /-");
                 }
             }
             else
@@ -79,14 +78,12 @@ namespace BusTicketBookingApp.Interfaces
                 Console.WriteLine("Schedule not found.");
                 return;
             }
-            Schedule? schedule;
-            Bus? bus;
-            schedule = Schedules.FirstOrDefault(sc => sc.ScheduleID == scheduleId);
-            bus = _busService.GetBusByID(schedule.BusID);
+            Schedule? schedule = Schedules.FirstOrDefault(sc => sc.ScheduleID == scheduleId);
+            Bus? bus = _busService.GetBusByID(schedule.BusID);
             Console.WriteLine();
             Console.WriteLine("Schedule Details\n");
-            Console.WriteLine($"Schedule ID:{schedule.ScheduleID} | Bus ID:{schedule.BusID} | From: {schedule.DepartureCity} => To {schedule.ArrivalCity}");
-            Console.WriteLine($"Departure:{schedule.DepartureDate}\nTaka:{schedule.TicketPrice} | Total Seats:{bus?.TotalSeats}");
+            Console.WriteLine($"Schedule ID: {schedule.ScheduleID} - Bus ID: {schedule.BusID} - From {schedule.DepartureCity} => To {schedule.ArrivalCity}");
+            Console.WriteLine($"Departure: {schedule.DepartureDate}\nTaka: {schedule.TicketPrice} - Total Seats: {bus?.TotalSeats}");
 
             // Seating Layout Design for Different type of bus. ex: Business , Economy
 
@@ -98,6 +95,8 @@ namespace BusTicketBookingApp.Interfaces
             {
                 EconomySeating(bus.TotalSeats, schedule);
             }
+
+            Console.WriteLine();
 
         }
 
@@ -115,6 +114,7 @@ namespace BusTicketBookingApp.Interfaces
 
                 Console.WriteLine($"[{a}]  [{b}] [{c}]");
             }
+            Console.WriteLine();
         }
 
         public void EconomySeating(int totalSeats, Schedule schedule)
@@ -125,13 +125,14 @@ namespace BusTicketBookingApp.Interfaces
 
             for (int i = 1; i <= rows; i++)
             {
-                string a = schedule.ReservedSeats.Contains($"A{i}") ? "X" : $"A{i}";
-                string b = schedule.ReservedSeats.Contains($"B{i}") ? "X" : $"B{i}";
-                string c = schedule.ReservedSeats.Contains($"C{i}") ? "X" : $"C{i}";
-                string d = schedule.ReservedSeats.Contains($"D{i}") ? "X" : $"D{i}";
+                string a = schedule.ReservedSeats.Contains($"A{i}") ? $"X A{i}" : $"  A{i}";
+                string b = schedule.ReservedSeats.Contains($"B{i}") ? $"X B{i}" : $"  B{i}";
+                string c = schedule.ReservedSeats.Contains($"C{i}") ? $"X C{i}" : $"  C{i}";
+                string d = schedule.ReservedSeats.Contains($"D{i}") ? $"X D{i}" : $"  D{i}";
 
                 Console.WriteLine($"[{a}] [{b}]    [{c}] [{d}]");
             }
+            Console.WriteLine();
         }
 
         public bool IsValidSeat(Bus bus, string seat)
@@ -162,9 +163,11 @@ namespace BusTicketBookingApp.Interfaces
             return false;
         }
 
-        public Schedule? GetScheduleByID(int id)
+        public Schedule? GetScheduleByID(int id) => Schedules.FirstOrDefault(s => s.ScheduleID == id);
+
+        public void AddReservedSeat(Schedule schedule,string seat)
         {
-            return Schedules.FirstOrDefault(s => s.ScheduleID == id);
+            schedule.ReservedSeats.Add(seat);
         }
     }
 
